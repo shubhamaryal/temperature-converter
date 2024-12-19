@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Temperature conversion progeam </title>
+    <link rel="stylesheet" href="tempconservation.css">
+</head>
+<body>
+    <div>
+        <h1> Temperature Conversion: </h1>
+        <input type="number" id="textBox" value="0">
+
+        <br>
+
+        <input type="radio" id="toFah" name="unit">
+        <label for="toFah"> Celcius ➡️ Fahreneit </label>
+
+        <br>
+
+        <input type="radio" id="toCel" name="unit">
+        <label for="toCel"> Fahreneit ➡️ Celcius </label>
+
+        <br>
+
+        <button id="sumbit" onclick="convert()"> Submit </button>
+
+        <br>
+
+        <p id="result"></p>
+    </div>
+
+    <script src="tempconservation.js"></script>
+</body>
+</html>
